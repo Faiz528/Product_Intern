@@ -75,6 +75,7 @@ async function onscreen(product) {
                 Featured: ${product.featured}<br>
                 Rating: ${product.rating}<br>
                 Company: ${product.company}<br>
+                CreatedAt :${product.createdAt}<br>
                 <button onclick="remove('${product._id}')">DELETE</button>
                 <button onclick="edit('${product._id}')">EDIT</button>
             </li>
