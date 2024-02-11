@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+  <body>
+    <div class="container mt-5">
+      <h1>Product Management</h1>
+  
+      <div id="products"></div>
+  
+      <form id="addProductForm" class="form-inline">
+        <div class="form-group mr-2">
+          <label for="name" class="mr-2">ProductId:"</label>
+          <input type="text" class="form-control" id="productId" name="productid" required>
+        </div>
+        <div class="form-group mr-2">
+          <label for="name" class="mr-2">Name:</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group mr-2">
+          <label for="price" class="mr-2">Price:</label>
+          <input type="number" class="form-control" id="price" name="price" required>
+        </div>
+        <div class="form-check mr-2">
+          <input type="checkbox" class="form-check-input" id="featured" name="featured">
+          <label class="form-check-label" for="featured">Featured:</label>
+        </div>
+        <div class="form-group mr-2">
+          <label for="rating" class="mr-2">Rating:</label>
+          <input type="number" class="form-control" id="rating" name="rating" step="0.1" required>
+        </div>
+        <div class="form-group mr-2">
+          <label for="rating" class="mr-2">Company</label>
+          <input type="text" class="form-control" id="company" name="company"  required>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Product</button>
+        <button type="button" id="fetchFeatured" class="btn btn-primary"> Featured Products</button>
+      <button type="button" id="update" class="btn btn-primary">Update Product</button>
+      </form>
+      
+    </div>
+      
+      
+      <!--<button  class="btn btn-default" id="update">Update</button><br>-->
+      
+      <h1>Products</h1>
+     
+
+      <ul id="userList"></ul>
+      
+</body>
+<script  src="../frontend/expense.js"></script>
+<script   src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+ 
+</script>
+
+
+    
+</script>
+</html>
