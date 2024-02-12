@@ -44,7 +44,7 @@ app.use(Expense)
 
 mongoose.connect('mongodb+srv://Faiz:Sharpener2023@faizuddin.tyr9tuj.mongodb.net/Product?retryWrites=true&w=majority').then(result=>{
     console.log("Connected")
-    app.listen(3000)
+    app.listen(PORT)
 }).catch(err=>{
     console.log(err)
 })
