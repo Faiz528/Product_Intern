@@ -1,8 +1,8 @@
 {
   "scripts": {
-"start": "node index.js",
-"test": "echo \"Error: no test specified\" && exit 1"
-},
+    "start": "node app1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "@sendgrid/mail": "^7.7.0",
     "aws-sdk": "^2.1397.0",
@@ -23,5 +23,12 @@
     "razorpay": "^2.8.6",
     "sequelize": "^6.31.1",
     "sib-api-v3-sdk": "^8.5.0"
-  }
+  },
+  "name": "backend_intern",
+  "version": "1.0.0",
+  "main": "app1.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
