@@ -1,4 +1,8 @@
 {
+  "scripts": {
+"start": "node index.js",
+"test": "echo \"Error: no test specified\" && exit 1"
+},
   "dependencies": {
     "@sendgrid/mail": "^7.7.0",
     "aws-sdk": "^2.1397.0",
